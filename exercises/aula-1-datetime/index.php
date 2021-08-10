@@ -16,4 +16,14 @@ echo str_ireplace(
     array_merge($months_en, $weekdays_en),
     array_merge($months_pt, $weekdays_pt),
     $current_date
-);
+) . "<br>";
+
+if (date('a') == 'am') {
+    echo "Bom dia 🌇";
+} else {
+    if (date('h') < 6) {
+        echo "Boa tarde 🏙️";
+    } else {
+        echo "Boa noite 🌆";
+    }
+}
