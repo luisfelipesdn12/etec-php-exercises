@@ -1,5 +1,5 @@
 # etec-php-exercises
-PHP exercises from my course at ETEC 
+PHP exercises from my course at ETEC and some of my own play-around with PHP
 
 Translations: [Português (BR)](README.pt-br.md)
 

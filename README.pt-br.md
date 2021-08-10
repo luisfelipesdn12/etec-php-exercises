@@ -1,5 +1,5 @@
 # etec-php-exercises
-Exercícios de PHP do meu curso na ETEC
+Exercícios de PHP do meu curso na ETEC e algumas das minhas próprias experimentação com PHP
 
 Traduções: [English](README.md)
 
