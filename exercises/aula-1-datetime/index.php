@@ -18,12 +18,12 @@ echo str_ireplace(
     $current_date
 ) . "<br>";
 
-if (date('a') == 'am') {
+if (date('H') < 6) {
+    echo "Boa madrugada 🛌";
+} else if (date('H') < 12) {
     echo "Bom dia 🌇";
+} else if (date('H') < 18) {
+    echo "Boa tarde 🌆";
 } else {
-    if (date('h') < 6) {
-        echo "Boa tarde 🏙️";
-    } else {
-        echo "Boa noite 🌆";
-    }
+    echo "Boa noite 🌃";
 }
