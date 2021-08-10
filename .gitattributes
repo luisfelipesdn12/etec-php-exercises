@@ -1,0 +1,3 @@
+# Files with the extension .php will always be treated as PHP files by Github.
+# This fix the identification as Hacklang files by Github.
+*.php linguist-language=php
