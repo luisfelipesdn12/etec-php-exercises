@@ -7,11 +7,13 @@ Translations: [Português (BR)](README.pt-br.md)
 
 ## Projects
 
-| Project                                    | Description                                                         | Demo                                                             |
-| ------------------------------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [aula-1-datetime](api/aula-1-datetime)     | Fist exercise ever, shows the current datetime and salute           | [🔗](https://etec-php-exercises.vercel.app/api/aula-1-datetime)   |
+| Project                                    | Description                                                         |                               Demo                               |
+| ------------------------------------------ | ------------------------------------------------------------------- | :--------------------------------------------------------------: |
+| [aula-1-datetime](api/aula-1-datetime)     | Fist exercise ever, shows the current datetime and salute           |  [🔗](https://etec-php-exercises.vercel.app/api/aula-1-datetime)  |
 | [tailwind-datetime](api/tailwind-datetime) | A version of the first one, but with a cool card using Tailwind CSS | [🔗](https://etec-php-exercises.vercel.app/api/tailwind-datetime) |
-| [loja-virtual](api/loja-virtual)           | A simple and not completed web store with Bootstrap                 | [🔗](https://etec-php-exercises.vercel.app/api/loja-virtual)      |
+| [loja-virtual](api/loja-virtual)           | A simple and not completed web store with Bootstrap                 |   [🔗](https://etec-php-exercises.vercel.app/api/loja-virtual)    |
+
+> Click on the 🔗 to see the demo
 
 ## Running
 
