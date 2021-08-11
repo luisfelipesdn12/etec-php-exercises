@@ -18,8 +18,28 @@ Traduções: [English](README.md)
 
 ## Rodando
 
-Eu estou usando o [XAMPP](https://www.apachefriends.org/) para rodar o servidor local.
+Como rodar os projetos localmente.
+
+### Usando o Servidor de Desenvolvimento do PHP
+
+Para o meu uso pessoal, eu acho que a CLI `php` é a melhor maneira de inicial um servidor local.
+
+1. Clone este repositório
+2. No diretório raiz do repositório, rode:
+
+```sh
+php -S localhost:<numero_de_alguma_porta>
+# exemplo: php -S localhost:4002
+```
+
+3. Vá para `http://localhost:<o_numero_da_porta>/api/<nome_do_exercicio>`
+
+### Usando o XAMPP
+
+Nas aulas da ETEC, nós aprendemos usando o [XAMPP](https://www.apachefriends.org) para rodar o servidor local.
+
+Como eu não estou usando banco de dados ainda, não é tão necessário, mas você pode usá-lo:
 
 - Clone este repositório em `<diretorio_do_xampp>/htdocs/`
 - Inicie o servidor Apache usando o XAMPP
-- Vá para `http://localhost/etec-php-exercises/api/<exercise_name>`
+- Vá para `http://localhost/etec-php-exercises/api/<nome_do_exercicio>`
