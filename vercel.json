@@ -3,9 +3,6 @@
         "api/*.php": {
             "runtime": "vercel-php@0.4.0"
         },
-        "api/tailwind-datetime/index.php": {
-            "runtime": "vercel-php@0.4.0"
-        },
         "api/**/*.php": {
             "runtime": "vercel-php@0.4.0"
         }
