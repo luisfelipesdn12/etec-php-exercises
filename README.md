@@ -11,4 +11,4 @@ I'm using [XAMPP](https://www.apachefriends.org/) to run the local server.
 
 - Clone this repository under `<xampp_dir>/htdocs/`
 - Start the Apache Server using XAMPP
-- Go to `http://localhost/etec-php-exercises/exercises/<exercise_name>`
+- Go to `http://localhost/etec-php-exercises/api/<exercise_name>`
