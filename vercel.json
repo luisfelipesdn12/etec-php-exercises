@@ -5,7 +5,9 @@
         },
         "api/**/*.php": {
             "runtime": "vercel-php@0.4.0"
-        },
+        }
+    },
+    "build": {
         "api/public/**": {
             "runtime": "@vercel/static"
         },
