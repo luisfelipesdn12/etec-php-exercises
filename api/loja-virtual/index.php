@@ -10,6 +10,7 @@
   <?php include 'includes/navbar.html'; ?>
   <?php include 'includes/header.html'; ?>
   <?php include 'includes/highlights.html'; ?>
+  <?php include 'includes/footer.html'; ?>
 </body>
 
 </html>
