@@ -9,6 +9,7 @@
 <body class="bg-dark" style="--bs-bg-opacity: .95;">
   <?php include 'includes/navbar.html'; ?>
   <?php include 'includes/header.html'; ?>
+  <?php include 'includes/highlights.html'; ?>
 </body>
 
 </html>
