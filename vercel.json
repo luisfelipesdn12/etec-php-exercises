@@ -5,6 +5,12 @@
         },
         "api/**/*.php": {
             "runtime": "vercel-php@0.4.0"
+        },
+        "api/public/**": {
+            "runtime": "@vercel/static"
+        },
+        "api/**/public/**": {
+            "runtime": "@vercel/static"
         }
     },
     "routes": [
