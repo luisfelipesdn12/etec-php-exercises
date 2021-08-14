@@ -1,9 +1,25 @@
+<style>
+    #nav-text-logo {
+        height: 2rem;
+    }
+
+    @media (max-width: 600px) {
+        #nav-text-logo {
+            height: 1.5rem;
+        }
+    }
+</style>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="assets/tectok-text-white.png" alt="TecTok Teclados" title="TecTok Teclados" style="height: 2rem;">
+            <picture>
+                <source srcset="../assets/tectok-only-text-white.svg" media="(max-width: 600px)">
+                <img id="nav-text-logo" src="../assets/tectok-text-white.svg" alt="TecTok Teclados"
+                    title="TecTok Teclados">
+            </picture>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -15,7 +31,8 @@
                     <a class="nav-link" href="#">Novidades</a>
                 </li>
                 <li class="nav-item dropdown" style="margin-right: 2rem;">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Mais
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -26,7 +43,8 @@
                     </ul>
                 </li>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Faça uma pesquisa..." aria-label="Faça uma pesquisa...">
+                    <input class="form-control me-2" type="search" placeholder="Faça uma pesquisa..."
+                        aria-label="Faça uma pesquisa...">
                     <button class="material-icons-outlined btn btn-dark" type="submit" style="color: #69C9D0;">
                         search
                     </button>

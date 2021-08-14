@@ -1,4 +1,36 @@
+<style>
+    #header-logo-text {
+        height: 10rem;
+    }
+
+    /* `lg` applies to medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
+        #header-logo-text {
+            height: 8rem;
+        }
+    }
+
+    /* `md` applies to small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) {
+        #header-logo-text {
+            height: 6rem;
+        }
+    }
+
+    /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) {
+        #header-logo-text {
+            height: 4rem;
+        }
+    }
+
+    @media (max-width: 300px) {
+        #header-logo-text {
+            width: 100%;
+        }
+    }
+</style>
 <header class="bg-dark text-white text-center p-4 rounded-lg my-3">
-    <img src="../assets/tectok-text-teclados-white.svg" alt="TecTok Teclados" style="height: 10rem;">
-    <p class="fs-4 mt-5 fw-bold">Vendemos os teclados mais barulhentos do mercado!</p>
+    <img id="header-logo-text" src="../assets/tectok-text-teclados-white.svg" alt="TecTok Teclados">
+    <p class="fs-4 sm:fs-5 mt-5 fw-bold">Vendemos os teclados mais barulhentos do mercado!</p>
 </header>
