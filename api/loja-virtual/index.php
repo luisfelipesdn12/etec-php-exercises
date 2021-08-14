@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-  <?php include 'includes/seo.php' ?>
-  <?php include 'includes/imports.php' ?>
+  <?php include 'includes/seo.html' ?>
+  <?php include 'includes/imports.html' ?>
 </head>
 
-<body>
-  <?php include 'includes/navbar.php'; ?>
+<body class="bg-dark" style="--bs-bg-opacity: .95;">
+  <?php include 'includes/navbar.html'; ?>
+  <?php include 'includes/header.html'; ?>
 </body>
 
 </html>
